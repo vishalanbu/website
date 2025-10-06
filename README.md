@@ -353,7 +353,7 @@ about.html
   </nav>
 </header>
  <section id="About" class="About">
-        <h1>Welcome to hema Restaurant</h1>
+        <h1>Welcome to Vishal Restaurant</h1>
         <p>our staffs</p>
         </section>
  <img src="staff1.png.png"height="700",width="700"style="display: block; margin: 0 auto;">
