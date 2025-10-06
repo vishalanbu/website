@@ -26,6 +26,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 # PROGRAM:
+```
 home.html
       <!DOCTYPE html>
 <html lang="en">
@@ -459,6 +460,7 @@ contact.html
 </footer>
 </body>
 </html>
+```
 
 # OUTPUT:
 
