@@ -162,7 +162,6 @@ Publish the website in the given URL.
 # OUTPUT:
 
 <img width="1914" height="1015" alt="vishal1" src="https://github.com/user-attachments/assets/b6cde9fb-f3b2-4ef2-b1bd-5675b4d18c9b" />
-<img width="1914" height="1015" alt="vishal2" src="https://github.com/user-attachments/assets/9abc7f7c-2c5d-4c93-bc4a-6f3215f5f3ae" />
 <img width="1876" height="1021" alt="vishal3" src="https://github.com/user-attachments/assets/577cf790-5e61-4ee0-bdc5-0958aa7bd2b5" />
 <img width="1883" height="1024" alt="vishal4" src="https://github.com/user-attachments/assets/279d67ee-c28e-4818-b558-e9747a65bcde" />
 <img width="1903" height="774" alt="vishal5" src="https://github.com/user-attachments/assets/22b9a97d-83f5-4f4a-97ae-784ca8c415e9" />
