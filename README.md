@@ -1,4 +1,4 @@
-``````````````````  `        # Ex.07 Restaurant Website
+# Ex.07 Restaurant Website
 # Date:13-10-2025
 # AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
@@ -26,6 +26,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 # PROGRAM:
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -158,6 +159,7 @@ Publish the website in the given URL.
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+```
 
 # OUTPUT:
 
