@@ -1,5 +1,5 @@
 # Ex.07 Restaurant Website
-# Date:06-10-2025
+# Date:13-10-2025
 # AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
 
@@ -27,8 +27,7 @@ Publish the website in the given URL.
 
 # PROGRAM:
 ```
-home.html
-      <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -127,13 +126,12 @@ home.html
         <h1>Welcome to vishal Restaurant</h1>
         <p>Experience the best flavors of traditional and modern cuisine in a warm and welcoming atmosphere.</p>
     </section>
- <img src="banner.png"height="700",width="700"style="display: block; margin: 0 auto;">
+ <img src=" "height="700",width="700"style="display: block; margin: 0 auto;">
 <footer>
-  <p>© 2025 Designed By vishal</p>
+  <p>© 2025 Designed By vishal/p>
 </footer>
 </body>
 </html>
-menu.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -220,7 +218,7 @@ menu.html
 </head>
 <body>
 <header>
-  <h1>VISHAL RESTAURANT</h1>
+  <h1>VISHAL  RESTAURANT</h1>
   <nav>
     <a href="home.html">Home</a>
     <a href="about.html">About</a>
@@ -230,33 +228,102 @@ menu.html
   </nav>
 </header>
  <section id="Menu" class="Menu">
-        <h1>Welcome to Vishal Restaurant</h1>
+        <h1>Welcome to VISHAL Restaurant</h1>
         <p>Experience the best flavors of traditional and modern cuisine in a warm and welcoming atmosphere.</p>
     </section>
- <img src="butterchicken.png.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
-<img src="biriyani.png.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="chickenwing.png.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="burger.png.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="corndog.png.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="momos.png.jpeg"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="pancake.png.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="panipoori.png.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="prawn.png.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="dosa.png.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="sandwich.png.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="meals.png.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
- 
+ <img src="food1.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
+<img src="food2.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
+ <img src="food3.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
+ <img src="food4.webp"height="700",width="700"style="display: block; margin: 0 auto;">
+ <img src="food5.webp"height="700",width="700"style="display: block; margin: 0 auto;">
 
 
 
 
  <footer>
 
-  <p>© 2025 Designed By Vishal</p>
+  <p>© 2025 Designed By vishal</p>
 </footer>
 </body>
 </html>
-about.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>Admin Dashboard</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin.html">Logout</a>
+  </nav>
+</header>
+
+<section class="dashboard">
+  <h2>Available Dishes</h2>
+  <ul>
+    <li>burger</li>
+    <li>corndog</li>
+    <li>momos </li>
+    <li>pancake</li>
+    <li>Chicken Biryani</li>
+,  </ul>
+
+  <h2>Add New Dish</h2>
+  <form>
+    <input type="text" placeholder="Dish Name">
+    <input type="text" placeholder="Price">
+    <button type="submit">Add Dish</button>
+  </form>
+
+  <h2>Employees on Shift</h2>
+  <ul>
+    <li>kiran- Chef</li>
+    <li>Sanjana- Waitress</li>
+    <li>Mithra - Manager</li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2025 VISHAL Restaurant</p>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>vishal Restaurant</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin.html">Administration</a>
+  </nav>
+</header>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>📍 no.143 kalaingnar street, tuticorin</p>
+  <p>📞 ‪+91 9790829517‬</p>
+  <p>📧 EMAIL : vishalpavan2007@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2025 VISHAL Restaurant</p>
+</footer>
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -353,15 +420,12 @@ about.html
   </nav>
 </header>
  <section id="About" class="About">
-        <h1>Welcome to Vishal Restaurant</h1>
+        <h1>Welcome to  Restaurant</h1>
         <p>our staffs</p>
         </section>
- <img src="staff1.png.png"height="700",width="700"style="display: block; margin: 0 auto;">
-<img src="staff2.png.png"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="staff3.png.jpg"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="staff4.png.png"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="staff5.png.png"height="700",width="700"style="display: block; margin: 0 auto;">
- <img src="staff6.png.png"height="700",width="700"style="display: block; margin: 0 auto;">
+ <img src="m1.webp"height="700",width="700"style="display: block; margin: 0 auto;">
+<img src="m2.webp"height="700",width="700"style="display: block; margin: 0 auto;">
+ <img src="m3.webp"height="700",width="700"style="display: block; margin: 0 auto;">
  
 
 
@@ -372,105 +436,16 @@ about.html
   <p>© 2025 Designed By Vishal</p>
 </footer>
 </body>
-</html>
-booking.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Admin Dashboard</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<header>
-  <h1>Admin Dashboard</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
-    <a href="admin.html">Logout</a>
-  </nav>
-</header>
-
-<section class="dashboard">
-  <h2>Available Dishes</h2>
-  <ul>
-    <li>burger</li>
-    <li>corndog</li>
-    <li>momos </li>
-    <li>pancake</li>
-    <li>Chicken Biryani</li>
-    <li>dosa</li>
-    <li>meals</li>
-    <li>panipoori</li>
-    <li>prawn</li>
-    <li>sandwich</li>
-    <li>butter Chicken</li>
-    <li>chickenwing</li>
-,  </ul>
-
-  <h2>Add New Dish</h2>
-  <form>
-    <input type="text" placeholder="Dish Name">
-    <input type="text" placeholder="Price">
-    <button type="submit">Add Dish</button>
-  </form>
-
-  <h2>Employees on Shift</h2>
-  <ul>
-    <li>kiran- Chef</li>
-    <li>Sanjai - Waitress</li>
-    <li>Mithra - Manager</li>
-  </ul>
-</section>
-
-<footer>
-  <p>© 2025 Vishal Restaurant</p>
-</footer>
-</body>
-</html>
-contact.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Restaurant - Contact</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<header>
-  <h1>Vishal Restaurant</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
-    <a href="admin.html">Administration</a>
-  </nav>
-</header>
-
-<section class="contact">
-  <h2>Contact Us</h2>
-  <p>📍 no.143 kalaingnar street, Ranipet</p>
-  <p>📞 +91 7603849189</p>
-  <p>📧 EMAIL : vishalpavan2007@gmail.com</p>
-</section>
-
-<footer>
-  <p>© 2025 vishal Restaurant</p>
-</footer>
-</body>
-</html>
+</html>>
 ```
 
 # OUTPUT:
+![banner png](https://github.com/user-attachments/assets/39c9df98-6a50-453f-942c-bee8db5023b5)
+![vishal rest](https://github.com/user-attachments/assets/f5ab97e2-0672-44b9-90ee-d89448ae6bb2)
+![vis](https://github.com/user-attachments/assets/ca561ba5-13f5-42d8-947b-fefc1267ccf1)
 
-![img 1](https://github.com/user-attachments/assets/ec7e4a45-adec-4a1d-b802-c286053b1340)
 
-![img 2](https://github.com/user-attachments/assets/9a7e57b4-1e78-47d6-b185-697b4bd44cc2)
 
-![img 3](https://github.com/user-attachments/assets/67913701-be4d-4e0e-805a-7614f1bc892c)
-
-![img 4](https://github.com/user-attachments/assets/78ef20c8-9c90-4e6e-943d-411d4ec927d0)
 
 
 
